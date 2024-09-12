@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+python-jose  # JWT handling
+passlib[bcrypt]  # For hashing passwords
