@@ -9,13 +9,13 @@
                           |
      +--------------------+---------------------+
      |                    |                     |
-+----v-----+        +-----v-------+        +----v-----+
-| Language |        | Authentication |     | Analytics |
-|  Model   |        |    Service     |     |  Service  |
-|  Service |        +---------------+     +-----------+
-|  (GET /  |        |  (POST /login)|
-| /complete|        +---------------+
-| -text)   |
-|  (POST / |
-| /summarize)|
-+----------+
+     +----v-----+        +-----v-------+        +----v-----+
+    | Language |        | Authentication |     | Analytics |
+    |  Model   |        |    Service     |     |  Service  |
+    |  Service |        +---------------+     +-----------+
+    |  (GET /  |        |  (POST /login)|
+    | /complete|        +---------------+
+    | -text)   |
+    |  (POST / |
+    | /summarize)|
+    +----------+
